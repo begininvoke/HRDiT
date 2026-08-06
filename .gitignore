@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+outputs*/
+pretrained_models/
+*.egg-info/
+.ipynb_checkpoints/

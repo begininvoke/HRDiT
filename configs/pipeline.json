@@ -1,0 +1,6 @@
+{
+  "pipe_params": {
+    "ntk_factor": [4.0, 10.0],
+    "num_inference_steps_highres": [17, 10]
+  }
+}
