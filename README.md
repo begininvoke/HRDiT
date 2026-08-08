@@ -85,10 +85,22 @@ python inference.py --prompt_file prompts.txt --num_prompts 10
 | `--seed` | `3407` | random seed |
 | `--dtype` | `fp16` | `fp16` or `bf16` |
 
+## Deriving a scope plan
+
+`configs/scope_plan_flux.json` holds the per-head attention scopes HAP prunes
+with, and is ready to use as shipped.
+
+To derive a plan for a different attention budget, see
+[HRDiT-HAP](https://github.com/zylwithxy/HRDiT-HAP), which contains the
+profiling and plan-search pipeline. Its output drops straight into
+`--scope_plan`.
+
 ## Citation
 
 <!-- TODO: add BibTeX once the arXiv preprint is online -->
 
 ## Acknowledgements
 
-<!-- TODO -->
+The code is built upon [HiFlow](https://github.com/Bujiazi/HiFlow),
+[FLUX](https://github.com/black-forest-labs/flux) and
+[I-Max](https://github.com/PRIS-CV/I-Max), thanks for their work!
