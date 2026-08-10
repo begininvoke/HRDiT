@@ -100,11 +100,14 @@ profiling and plan-search pipeline. Its output drops straight into
 ## Citation
 
 ```bibtex
-@article{xue2026hrdit,
-  title   = {HRDiT: Training-Free High-Resolution Image Generation with Off-the-Shelf Diffusion Transformer Models},
-  author  = {Xue, Yu and Qu, Haoxuan and Li, Zhuoling and Xu, Hongbin and Yin, Jianxiong and See, Simon and Rahmani, Hossein and Liu, Jun},
-  journal = {arXiv preprint arXiv:2608.07003},
-  year    = {2026}
+@misc{xue2026hrdittrainingfreehighresolutionimage,
+      title={HRDiT: Training-Free High-Resolution Image Generation with Off-the-Shelf Diffusion Transformer Models}, 
+      author={Yu Xue and Haoxuan Qu and Zhuoling Li and Hongbin Xu and Jianxiong Yin and Simon See and Hossein Rahmani and Jun Liu},
+      year={2026},
+      eprint={2608.07003},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2608.07003}, 
 }
 ```
 
