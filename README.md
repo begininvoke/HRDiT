@@ -1,5 +1,7 @@
 # HRDiT: Training-Free High-Resolution Image Generation with Off-the-Shelf Diffusion Transformer Models
 
+[![arXiv](https://img.shields.io/badge/arXiv-2608.07003-b31b1b.svg)](https://arxiv.org/abs/2608.07003)
+
 Official implementation of **HRDiT**.
 
 ## Overview
@@ -97,7 +99,14 @@ profiling and plan-search pipeline. Its output drops straight into
 
 ## Citation
 
-<!-- TODO: add BibTeX once the arXiv preprint is online -->
+```bibtex
+@article{xue2026hrdit,
+  title   = {HRDiT: Training-Free High-Resolution Image Generation with Off-the-Shelf Diffusion Transformer Models},
+  author  = {Xue, Yu and Qu, Haoxuan and Li, Zhuoling and Xu, Hongbin and Yin, Jianxiong and See, Simon and Rahmani, Hossein and Liu, Jun},
+  journal = {arXiv preprint arXiv:2608.07003},
+  year    = {2026}
+}
+```
 
 ## Acknowledgements
 
