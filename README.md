@@ -79,7 +79,7 @@ python inference.py --prompt_file prompts.txt --num_prompts 10
 
 Generation runs on a single GPU; the pipeline does not shard the model across
 devices. A 4096x4096 image peaks at about 46 GiB, of which 33 GiB is the
-FLUX.1-dev weights in fp16. On a 48 GB card, run with
+FLUX.1-dev weights in fp16. On a 48 GB A6000 card, run with
 
 ```bash
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python inference.py ...
