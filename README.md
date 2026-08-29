@@ -109,6 +109,12 @@ To derive a plan for a different attention budget, see
 profiling and plan-search pipeline. Its output drops straight into
 `--scope_plan`.
 
+## Community
+
+The Remyx AI team has reimplemented HRDiT as a diffusers pipeline at
+[remyxai/hrdit-flux-modular](https://huggingface.co/remyxai/hrdit-flux-modular),
+thanks for their work!
+
 ## Citation
 
 ```bibtex
