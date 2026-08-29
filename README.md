@@ -48,6 +48,18 @@ Download the off-the-shelf base model:
 huggingface-cli download black-forest-labs/FLUX.1-dev --local-dir ./pretrained_models/FLUX.1-dev
 ```
 
+### Hardware
+
+Generation runs on a single GPU; the pipeline does not shard the model across
+devices. A 4096x4096 image peaks at about 46 GiB, of which 33 GiB is the
+FLUX.1-dev weights in fp16. On a 48 GB card, run with
+
+```bash
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python inference.py ...
+```
+
+so the allocator does not fragment. `--resolutions 2048` peaks at about 36 GiB.
+
 ## 🚀 Inference
 
 Generate a 4K (4096x4096) image from a text prompt:
